@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #151515;
+  color: #00ffff;
+}
+p {
+  font-size: 30px;
+}
