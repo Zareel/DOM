@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Liveclass1</title>
+  </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #111111;
+      color: azure;
+    }
+  </style>
+  <body>
+    <h1>Hello JavaScript</h1>
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>JS</p>
+
+    <script>
+      //root
+      //console.log(document);
+      //console.log(window.document);
+      //console.log(document.documentElement);
+
+      //Children
+      //console.log(document.body.children);
+      //console.log(document.body.firstElementChild);
+
+      //finding the element
+      /*
+      let value = document.getElementById("js").innerText;
+      console.log(value);
+      */
+      /*
+      let val = document.getElementsByClassName("tech")[0].innerHTML;
+      console.log(val);
+      */
+      /*
+      let val = document.getElementsByTagName;
+      console.log(val);
+      */
+
+      let value = document.querySelectorAll("p");
+      console.log(value[2]);
+    </script>
+  </body>
+</html>
